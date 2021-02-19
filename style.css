@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.main-img img,
+.images img {
+    width: 100%;
+}
+
+.images img {
+    cursor: pointer;
+    height: 100px;
+}
+
+.main-img img {
+    height: 400px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3px;
+}
